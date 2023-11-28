@@ -8,7 +8,7 @@ https://gwfh.mranftl.com/fonts/roboto?subsets=cyrillic,latin
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('./fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 
 body {
@@ -30,32 +30,32 @@ h2 {
 }
 
 @keyframes headerLane {
-    0% {background-image: url(../img/0001.png);}
-    4% {background-image: url(../img/0002.png);}
-    8% {background-image: url(../img/0003.png);}
-    12% {background-image: url(../img/0004.png);}
-    16% {background-image: url(../img/0005.png);}
-    20% {background-image: url(../img/0006.png);}
-    24% {background-image: url(../img/0007.png);}
-    28% {background-image: url(../img/0008.png);}
-    32% {background-image: url(../img/0009.png);}
-    36% {background-image: url(../img/0010.png);}
-    40% {background-image: url(../img/0011.png);}
-    44% {background-image: url(../img/0012.png);}
-    48% {background-image: url(../img/0013.png);}
-    52% {background-image: url(../img/0014.png);}
-    56% {background-image: url(../img/0015.png);}
-    60% {background-image: url(../img/0016.png);}
-    64% {background-image: url(../img/0017.png);}
-    68% {background-image: url(../img/0018.png);}
-    72% {background-image: url(../img/0019.png);}
-    76% {background-image: url(../img/0020.png);}
-    80% {background-image: url(../img/0021.png);}
-    84% {background-image: url(../img/0022.png);}
-    88% {background-image: url(../img/0023.png);}
-    92% {background-image: url(../img/0024.png);}
-    96% {background-image: url(../img/0024.png);}
-    100% {background-image: url(../img/0025.png);}
+    0% {background-image: url(./img/0001.png);}
+    4% {background-image: url(./img/0002.png);}
+    8% {background-image: url(./img/0003.png);}
+    12% {background-image: url(./img/0004.png);}
+    16% {background-image: url(./img/0005.png);}
+    20% {background-image: url(./img/0006.png);}
+    24% {background-image: url(./img/0007.png);}
+    28% {background-image: url(./img/0008.png);}
+    32% {background-image: url(./img/0009.png);}
+    36% {background-image: url(./img/0010.png);}
+    40% {background-image: url(./img/0011.png);}
+    44% {background-image: url(./img/0012.png);}
+    48% {background-image: url(./img/0013.png);}
+    52% {background-image: url(./img/0014.png);}
+    56% {background-image: url(./img/0015.png);}
+    60% {background-image: url(./img/0016.png);}
+    64% {background-image: url(./img/0017.png);}
+    68% {background-image: url(./img/0018.png);}
+    72% {background-image: url(./img/0019.png);}
+    76% {background-image: url(./img/0020.png);}
+    80% {background-image: url(./img/0021.png);}
+    84% {background-image: url(./img/0022.png);}
+    88% {background-image: url(./img/0023.png);}
+    92% {background-image: url(./img/0024.png);}
+    96% {background-image: url(./img/0024.png);}
+    100% {background-image: url(./img/0025.png);}
 }
 
 .header {
