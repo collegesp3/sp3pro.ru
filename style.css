@@ -102,6 +102,14 @@ main{
 	height: auto;
 	padding: 50px;	
 }
+.downtext{
+	color: #96451f;
+	font-size: 25px;
+	padding: 20px;
+	position: absolute;
+	bottom: 20px;
+
+}
 .footer{
 	position: relative;
 	bottom: 0;
