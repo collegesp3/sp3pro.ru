@@ -1,0 +1,114 @@
+/*
+google-webfonts-helper
+https://gwfh.mranftl.com/fonts/roboto?subsets=cyrillic,latin
+*/
+/* roboto-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+body {
+    font-family: 'Roboto';  
+}
+
+h1 {
+    font-size: 4.5em;
+    text-shadow: 3px 3px 30px #87f8fd;
+    color: #fdfd99;
+    
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #032224;
+
+}
+
+@keyframes headerLane {
+    0% {background-image: url(../img/0001.png);}
+    4% {background-image: url(../img/0002.png);}
+    8% {background-image: url(../img/0003.png);}
+    12% {background-image: url(../img/0004.png);}
+    16% {background-image: url(../img/0005.png);}
+    20% {background-image: url(../img/0006.png);}
+    24% {background-image: url(../img/0007.png);}
+    28% {background-image: url(../img/0008.png);}
+    32% {background-image: url(../img/0009.png);}
+    36% {background-image: url(../img/0010.png);}
+    40% {background-image: url(../img/0011.png);}
+    44% {background-image: url(../img/0012.png);}
+    48% {background-image: url(../img/0013.png);}
+    52% {background-image: url(../img/0014.png);}
+    56% {background-image: url(../img/0015.png);}
+    60% {background-image: url(../img/0016.png);}
+    64% {background-image: url(../img/0017.png);}
+    68% {background-image: url(../img/0018.png);}
+    72% {background-image: url(../img/0019.png);}
+    76% {background-image: url(../img/0020.png);}
+    80% {background-image: url(../img/0021.png);}
+    84% {background-image: url(../img/0022.png);}
+    88% {background-image: url(../img/0023.png);}
+    92% {background-image: url(../img/0024.png);}
+    96% {background-image: url(../img/0024.png);}
+    100% {background-image: url(../img/0025.png);}
+}
+
+.header {
+    background: linear-gradient(-45deg, #eef7ba ,10%, #1d2c14 ,90%, #d4d59c);
+    border-radius: 10px;    
+}
+
+.header_container {
+    display: grid;
+    grid-template-columns: 240px auto;
+}
+
+.header_logo {
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    /*
+    background-image: url("log_blog.png");
+    */
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    animation: headerLane 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+}
+
+.header_text {
+    text-align: center;
+}
+
+
+
+.main_container {
+    display: grid;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    /*
+    min-height: calc(70vh - 70px);
+    */
+    margin-top: 10px;
+}
+
+.prof {
+    min-height: auto;
+    background-color: rgb(120, 225, 227);
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: rgb(149, 218, 81);
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
