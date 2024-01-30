@@ -2,46 +2,101 @@ html{
     min-height: 100%;
     max-width: 100%;
 }
-*{
+*{ 
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 .header{
-    height: 500px;
+    height: 605px;
     width: auto;
-    border: 2px solid black;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 100px;
-    background-image:url(Rectangle6.png);
-    filter: blur(5px);
+    padding-bottom: 100px;
+    border: 2px solid black;
 }
-
+.header_back{
+    filter: blur(2px);
+    z-index: -1;
+    position: fixed;
+    left: 0; right: 0; 
+    top: -15px; bottom: 0;
+}
+.header_logo{
+    width: 200%;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+}
+.header_menu_logoimg{
+    margin: 40px;
+    height: 70%;
+}
+.header_logoname{
+    color: white;
+    padding-top: 40px;
+    text-align: left;
+    font-family:sans-serif;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-size: 10vh;
+}
 .header_menu{
     height: 400px;
     width: auto;
-    border: 2px solid black;
     padding: 10px;
     display: grid;
     grid-template-columns: 40% 60%;
     background: #FC804C;
+    border-radius: 5px;
 }
 .header_menu_nav{
     grid-column-start: 2;
     height: auto;
     width: auto;
-    border: 2px solid black;
-    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: 2;
 }
-.header_menu_logo{
-    height: 250px;
-    width: 250px;
-    border: 2px solid black;
-    margin: 10px;
-}
+
 .header_menu_nav_item{
-    height: 50px;
-    width: 150px;
-    border: 2px solid black;
+    color: white;
+    font-size: 50px;
+    font-family:sans-serif;
     margin: 10px;
+    text-align: center;
+    margin:auto;
+    transition: 0.5s;
+    padding: 30px;
+    border-radius: 60px;
+    text-decoration: none;
+}
+.header_menu_nav_item:hover{
+    color: white;
+    font-size: 50px;
+    font-family:sans-serif;
+    margin: 10px;
+    text-align: center;
+    margin:auto;
+    background-color: #f34a16be;
+    transition: 0.1s;
+    padding: 40px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+.but1{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+.but2{
+    grid-row-start: 2;
+}
+.but3{
+    grid-row-start: 2;
+}
+.but4{
+    grid-row-start: 2;
 }
