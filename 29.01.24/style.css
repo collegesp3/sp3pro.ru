@@ -8,6 +8,9 @@ html{
     margin: 0;
     font-family: sans-serif;
 }
+body{
+    height: auto;
+}
 .header{
     height: 605px;
     width: auto;
