@@ -147,7 +147,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
-    background: rgb(245, 236, 219);
+    background: rgb(255, 255, 255);
 }
 .main_naprav{
     width: auto;
@@ -155,27 +155,23 @@ body{
     cursor: pointer;
     margin: 100px;
     padding: 100px;
-   
+    background: rgb(191, 232, 245);
 }
 .mn1{
     grid-column-start: 1;
     grid-row-start: 1;
-    background-color:  #dbcdbc;
 }
 .mn2{
     grid-column-start: 1;
     grid-row-start: 2;
-    background-color:  #dbcdbc;
 }
 .mn3{
     grid-column-start: 2;
     grid-row-start: 1;
-    background-color: #dbcdbc;
 }
 .mn4{
     grid-column-start: 2;
     grid-row-start: 2;
-    background-color: #dbcdbc;
 }
 .main_naprav_h1{
     font-size: 20px;
