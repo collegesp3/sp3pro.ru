@@ -50,6 +50,7 @@ body{
     font-size: 3vh;
 }
 .header_menu{
+    z-index: 100;
     background: #fc814c;
     position: fixed;
     height: 160;
@@ -58,6 +59,7 @@ body{
     display: grid;
     grid-template-columns: 40% 60%;
     top: 0px;
+    transition: all 1s;
 }
 .header_menu_nav{
     grid-column-start: 2;
