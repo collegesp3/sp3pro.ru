@@ -166,26 +166,26 @@ body{
     border-radius: 10px;
 }
 .mn1{
-    background-image: url('img/mainpic1.jpg');
+    background-image: url('img copy/mainpic1.jpg');
     grid-column-start: 1;
     grid-row-start: 1;
 }
 .mn2{
-    background-image: url('img/mainpic2.jpg');
+    background-image: url('img copy/mainpic2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     grid-column-start: 1;
     grid-row-start: 2;
 }
 .mn3{
-    background-image: url('img/mainpic3.jpg');
+    background-image: url('img copy/mainpic3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     grid-column-start: 2;
     grid-row-start: 1;
 }
 .mn4{
-    background-image: url('img/mainpic4.jpg');
+    background-image: url('img copy/mainpic4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     grid-column-start: 2;
