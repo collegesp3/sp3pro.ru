@@ -1,0 +1,162 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	max-width:100%;
+	min-height: 100%;
+}
+
+.dg{display: grid;}
+.text, p{font-family: sans-serif; text-decoration: none;}
+a{text-decoration: none;}
+.header{
+	grid-template-rows: 500px 90px 310px 143px 175px;
+	grid-template-columns: 1fr;
+}
+
+.mainpic{
+	max-width:100%;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.top{
+	background: #FD9B40;
+	width: 100%;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	position: relative;
+	z-index:2;
+	padding: 30px;
+	padding-left: 100px;
+	padding-top: 70px;
+	display: flex;
+	flex-direction: row;
+}
+
+.search{
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-top: 40px;
+}
+.glav{
+	color:  #FD9B40;
+	font-size: 48px;
+	width: 200px;
+	border:none;
+	grid-column-start: 3;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.gnum{
+	font-size: 24px;
+}
+
+.aselect{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 50px;
+	grid-column-start: 3;
+}
+.menu{
+	grid-row-start: 5;
+	grid-row-end: 6;
+	background: #FD9B40;
+	grid-template-columns: 1fr 1fr 1fr;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.textmenu{
+	color: white;
+	font-size: 48px;
+	padding: 30px;
+}
+.textmenu{
+	color: white;
+	font-size: 48px;
+	padding: 30px;
+}
+
+.textmenu:hover{
+	background: #FC804C;
+	border-radius:100px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.logo{
+	width: 269px;
+	height: 251px;
+}
+.logtext{
+	font-family: sans-serif;
+	color: white;
+	font-size: 64px;
+}
+main{
+	height: auto;
+	padding: 50px;	
+}
+.downtext{
+	color: #96451f;
+	font-size: 25px;
+	padding: 20px;
+	position: absolute;
+	bottom: 20px;
+}
+.footer{
+	position: relative;
+	bottom: 0;
+	background: #FD9B40;
+	width: 100%;
+	height: 650px;	
+}
+
+/* Кнопка выпадающего списка */
+.dropbtn {
+  background: white;
+  color: #FD9B40;
+  font-size: 48px;
+  border: none;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 0px #731e18;
+  z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: #FD9B40;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
+  font-size: 30px; 
+  transition: 150ms;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #fad275; color: white; transition: 300ms;}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {display: block;}
+
+
