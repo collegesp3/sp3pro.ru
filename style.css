@@ -159,7 +159,6 @@ body{
 .main_naprav{
     width: auto;
     height: auto;
-    cursor: pointer;
     margin: 15px;
     padding: 30px;
     background: rgb(191, 232, 245);
@@ -202,6 +201,7 @@ body{
     border-radius: 10px;
     width: auto;
     height: auto;
+    cursor: pointer;
 }
 
 .footer{
