@@ -15,6 +15,7 @@ body{
 }
 
 .main{
+    
     margin-top: 100px;
     width: 100%;
     height: 1500px;
@@ -32,6 +33,7 @@ body{
     text-decoration: none;
 }
 .main_naprav{
+    
     width: auto;
     height: auto;
     margin: 15px;
@@ -77,41 +79,4 @@ body{
     width: auto;
     height: auto;
     cursor: pointer;
-}
-
-.wrapper {
-	height: 350px;
-	width: 700px;
-}
-input{
-    position: relative;
-}
-.slider {
-    grid-row-start: 3;
-	background-color: #ddd;
-	height: inherit;
-	width: inherit;
-    
-}
-
-.slides {
-	height: inherit;
-	width: inherit;
-    opacity: 0;
-	position: absolute;
-	z-index: 0;
-}
-
-.slide1 { background: black; }
-.slide2 { background: red; }
-.slide3 { background: wheat; }
-.slide4 { background: orange; }
-
-#slide1:checked ~ .slider > .slide1,
-#slide2:checked ~ .slider > .slide2,
-#slide3:checked ~ .slider > .slide3,
-#slide4:checked ~ .slider > .slide4,
-#slide5:checked ~ .slider > .slide5 {
-	opacity: 1;
-	z-index: 1;
 }
