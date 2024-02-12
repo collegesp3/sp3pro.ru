@@ -1,0 +1,33 @@
+main{
+    height: 2000px;
+}
+
+.wrapper{
+    padding: 50px;
+    height: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+h2{
+    text-align: center;
+    color: rgb(99, 36, 36);
+    font-size: 20px;
+    padding: 10px;
+}
+.main_div_education{
+    background: rgb(228, 204, 204);
+    padding: 20px;
+}
+
+.main_div_profile{
+    background: rgb(213, 213, 241);
+    padding: 20px;
+}
+.main_div_bigtext{
+    padding: 20px;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    background-color: rgb(213, 245, 222);
+}
