@@ -1,6 +1,6 @@
 html{
-    min-height: 100%;
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
 }
 *{ 
     box-sizing: border-box;
@@ -9,8 +9,6 @@ html{
     font-family: sans-serif;
 }
 body{
-    min-height: 100%;
-    max-width: 100%;
     height: 100%;
 }
 .header{
@@ -143,12 +141,12 @@ body{
 }
 main{
     margin-top: 100px;
-    width: 100%;
+    width: 200vh;
     height: 1500px;
     background: white;
 }
 .footer{
-    width: auto;
+    width: 100vh;
     height: 300px;
     background-color: #FC804C;
 }

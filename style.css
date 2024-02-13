@@ -1,9 +1,5 @@
 
 .main{
-    
-    margin-top: 100px;
-    width: 100%;
-    height: 800px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 250px 250px ;
@@ -18,7 +14,6 @@
     text-decoration: none;
 }
 .main_naprav{
-    
     width: auto;
     height: auto;
     margin: 15px;
