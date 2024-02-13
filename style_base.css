@@ -146,7 +146,7 @@ main{
     background: white;
 }
 .footer{
-    width: 100vh;
+    width: 200vh;
     height: 300px;
     background-color: #FC804C;
 }
@@ -155,4 +155,9 @@ main{
     padding-top: 50px;
     text-align: center;
     color: #FC804C;
+}
+.footer_pod{
+    text-align: right;
+    font-size: 15px;
+    color: #864535;
 }
