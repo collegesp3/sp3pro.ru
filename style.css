@@ -1,13 +1,21 @@
-
 .main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 250px 250px ;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 50px 250px 250px ;
     background: rgb(255, 255, 255);
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
     height: 650px;
+}
+.main_pagename{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #471002c2;
+    font-size: ;
 }
 .main_naprav_h1{
     color:white;
@@ -27,28 +35,28 @@
 .mn1{
     background-image: url('img copy/mainpic1.jpg');
     grid-column-start: 1;
-    grid-row-start: 1;
+    grid-row-start: 2;
 }
 .mn2{
     background-image: url('img copy/mainpic2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     grid-column-start: 1;
-    grid-row-start: 2;
+    grid-row-start: 3;
 }
 .mn3{
     background-image: url('img copy/mainpic3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     grid-column-start: 2;
-    grid-row-start: 1;
+    grid-row-start: 2;
 }
 .mn4{
     background-image: url('img copy/mainpic4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     grid-column-start: 2;
-    grid-row-start: 2;
+    grid-row-start: 3;
 }
 .main_naprav_podrob{
     position: absolute;

@@ -1,0 +1,68 @@
+main{
+    height: 900px;
+}
+
+.wrapper{
+    padding: 70px;
+    height: 750px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.wrapper div{
+    border-radius: 30px;
+}
+h2{
+    text-align: center;
+    color: rgb(99, 36, 36);
+    font-size: 30px;
+    padding: 10px;
+}
+.main_div_education{
+    font-size: 20px;
+    margin-top: 15px;
+    height: auto;
+    width: auto;
+    background: rgb(228, 204, 204);
+    padding: 20px;
+}
+
+.main_div_profile{
+    font-size: 20px;
+    margin-top: 15px;
+    background: rgb(213, 213, 241);
+    padding: 20px;
+}
+.main_div_bigtext{
+    height:350px;
+    width: auto;
+    padding: 20px;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-end: 3;
+    grid-row-start: 1;
+    background-color: rgb(213, 245, 222);
+    font-size: 21px;
+}
+
+.main_div_scince{
+    font-size: 19px;
+    height: auto;
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(213, 227, 245);
+}
+.main_div_practika{
+    font-size: 20px;
+    padding: 20px;
+    height: auto;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-end: 2;
+    grid-row-start: 3;
+    background-color: rgb(245, 239, 213);
+}
