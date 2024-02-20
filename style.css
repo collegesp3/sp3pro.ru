@@ -1,12 +1,11 @@
 .main{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 50px 250px 250px ;
+    grid-template-rows: 50px 40px 250px 250px ;
     background: rgb(255, 255, 255);
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
-    height: 650px;
 }
 .main_pagename{
     text-align: center;
@@ -14,8 +13,17 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    color: #471002c2;
+    color: #4e2c24;
     font-size:45px ;
+}
+.main_2name{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: #6d524c;
+    font-size:25px ; 
 }
 .main_naprav_h1{
     color:white;
@@ -27,7 +35,6 @@
     height: auto;
     margin: 15px;
     padding: 30px;
-    background: rgb(191, 232, 245);
     transition: 0.4s;
     box-shadow: 1px 5px 10px 1px rgba(5, 16, 51, 0.411);
     border-radius: 10px;
@@ -35,34 +42,34 @@
 .mn1{
     background-image: url('img copy/mainpic1.jpg');
     grid-column-start: 1;
-    grid-row-start: 2;
+    grid-row-start: 3;
 }
 .mn2{
     background-image: url('img copy/mainpic2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     grid-column-start: 1;
-    grid-row-start: 3;
+    grid-row-start: 4;
 }
 .mn3{
     background-image: url('img copy/mainpic3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     grid-column-start: 2;
-    grid-row-start: 2;
+    grid-row-start: 3;
 }
 .mn4{
     background-image: url('img copy/mainpic4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     grid-column-start: 2;
-    grid-row-start: 3;
+    grid-row-start: 4;
 }
 .main_naprav_podrob{
     position: absolute;
     padding: 10px;
     text-decoration: none;
-    color: rgb(10, 6, 240);
+    color: rgb(15, 11, 238);
     background-color: #ffffffc2;
     border-radius: 10px;
     width: auto;
