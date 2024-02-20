@@ -1,13 +1,13 @@
 main{
-    height: 900px;
+    height: 1000px;
 }
 
 .wrapper{
     padding: 70px;
-    height: 750px;
+    height: 850px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 350px 300px ;
     gap: 30px;
 }
 .wrapper div{
@@ -63,7 +63,7 @@ h2{
     height: auto;
     grid-column-start: 3;
     grid-column-end: 6;
-    grid-row-end: 4;
-    grid-row-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
     background-color: rgb(245, 239, 213);
 }
