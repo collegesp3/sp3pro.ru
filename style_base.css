@@ -145,6 +145,15 @@ main{
     
     background: white;
 }
+.main_pagename{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: #4e2c24;
+    font-size:45px ;
+}
 .footer{
     width: 200vh;
     height: 300px;
