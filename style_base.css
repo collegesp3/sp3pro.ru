@@ -148,7 +148,7 @@ body{
 }
 main{
     margin-top: 100px;
-    width: 200vh;
+    width: 100vw;
     
     background: white;
 }
