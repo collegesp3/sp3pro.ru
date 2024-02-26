@@ -4,9 +4,9 @@ window.onscroll = onScroll;
 function onScroll() {
   var top = window.pageYOffset;
   if (scroll > top) {
-    document.getElementById("header_menu").style.display = "";
+    document.getElementById("header_menu").style.top = "-15px";
   } else if (scroll < top) {
-    document.getElementById("header_menu").style.display = "none";
+    document.getElementById("header_menu").style.top = "-150px";
   }
   scroll = top;
 }
