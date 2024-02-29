@@ -137,7 +137,7 @@ body{
 
 @keyframes anim_grouplist{
       0%{height: 0;}
-    100%{height: 700px;}
+    100%{height: 750px;}
 }
 .group:hover .group-content {
     display: flex;
@@ -152,8 +152,8 @@ body{
 .group-content {
     display: none;
     position: absolute;
-    left: -20px;
-    top: 50px;
+    left: -8px;
+    top: 47px;
     background-color: #f9f9f9;
     border-radius: 15px;
     min-width: 100px;
