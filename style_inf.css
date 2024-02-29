@@ -1,5 +1,6 @@
 main{
-    height: 1100px;
+    height: auto;
+    padding-bottom: 200px;
 }
 
 .wrapper{
@@ -16,7 +17,7 @@ main{
 h2{
     text-align: center;
     color: rgb(99, 36, 36);
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
 }
 .main_div_education{
@@ -35,7 +36,7 @@ h2{
     padding: 20px;
 }
 .main_div_bigtext{
-    height:610px;
+    height:auto;
     width: auto;
     padding: 20px;
     grid-column-start: 3;
@@ -65,4 +66,9 @@ h2{
     grid-row-end: 3;
     grid-row-start: 4;
     background-color: rgb(245, 239, 213);
+}
+.main_h1_napr{
+    text-align: center;
+    color: rgb(99, 36, 36);
+    font-size: 35px
 }

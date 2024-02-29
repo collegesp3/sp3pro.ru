@@ -2,11 +2,10 @@
     position: relative;
     top: -150px;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 50px 40px 250px 250px ;
     padding-left: 100px;
     padding-right: 100px;
     height: fit-content;
+
     &_pagename{
         text-align: center;
         grid-column-start: 1;
@@ -28,11 +27,16 @@
         color: #6d524c;
         font-size:25px ; 
     }
+    &_allnaprav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:  space-around;
+        }
     &_naprav{
         position: relative;
         width: auto;
         height: auto;
-        margin: 15px;
+        margin-top: 70px;
         padding: 30px;
         transition: 0.4s;
         box-shadow: 1px 5px 10px 1px rgba(5, 16, 51, 0.411);
@@ -64,30 +68,34 @@
         
     }
 }
-
-.mn1{
-    background-image: url('img copy/mainpic1.jpg');
-    grid-column-start: 1;
-    grid-row-start: 3;
-}
-.mn2{
-    background-image: url('img copy/mainpic2.jpg');
+.mn1 {
+    
+    width: 696px;
+    height: 220px;
+    background-image: url("img copy/mainpic1.jpg");
+  }
+  
+  .mn2 {
+    width: 696px;
+    height: 220px;
+    background-image: url("img copy/mainpic2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    grid-column-start: 1;
-    grid-row-start: 4;
-    }
-.mn3{
-    background-image: url('img copy/mainpic3.jpg');
+    
+  }
+  
+  .mn3 {
+    width: 696px;
+    height: 220px;
+    background-image: url("img copy/mainpic3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    grid-column-start: 2;
-    grid-row-start: 3;
-    }
-.mn4{
-    background-image: url('img copy/mainpic4.jpg');
+  }
+  
+  .mn4 {
+    width: 696px;
+    height: 220px;
+    background-image: url("img copy/mainpic4.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    grid-column-start: 2;
-    grid-row-start: 4;
-    }
+    background-size: cover;   
+  }

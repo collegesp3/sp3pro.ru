@@ -2,8 +2,6 @@
   position: relative;
   top: -150px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 40px 250px 250px;
   padding-left: 100px;
   padding-right: 100px;
   height: -moz-fit-content;
@@ -30,11 +28,16 @@
   color: #6d524c;
   font-size: 25px;
 }
+.main_allnaprav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .main_naprav {
   position: relative;
   width: auto;
   height: auto;
-  margin: 15px;
+  margin-top: 70px;
   padding: 30px;
   transition: 0.4s;
   box-shadow: 1px 5px 10px 1px rgba(5, 16, 51, 0.411);
@@ -66,31 +69,31 @@
 }
 
 .mn1 {
+  width: 696px;
+  height: 220px;
   background-image: url("img copy/mainpic1.jpg");
-  grid-column-start: 1;
-  grid-row-start: 3;
 }
 
 .mn2 {
+  width: 696px;
+  height: 220px;
   background-image: url("img copy/mainpic2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column-start: 1;
-  grid-row-start: 4;
 }
 
 .mn3 {
+  width: 696px;
+  height: 220px;
   background-image: url("img copy/mainpic3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column-start: 2;
-  grid-row-start: 3;
 }
 
 .mn4 {
+  width: 696px;
+  height: 220px;
   background-image: url("img copy/mainpic4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  grid-column-start: 2;
-  grid-row-start: 4;
 }/*# sourceMappingURL=main.css.map */

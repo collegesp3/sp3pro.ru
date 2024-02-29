@@ -67,3 +67,8 @@ h2{
     grid-row-end: 3;
     background-color: rgb(245, 239, 213);
 }
+.main_h1_napr{
+    text-align: center;
+    color: rgb(99, 36, 36);
+    font-size: 35px
+}
