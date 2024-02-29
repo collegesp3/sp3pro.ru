@@ -10,7 +10,7 @@ a { color: blue; }
 
 .fl{ display: flex; }
 .col{ flex-direction: column; }
-.row{ flex-drection: row; }
+.row{ flex-direction: row; }
 .fl-wrap{ flex-wrap: wrap; }
 .a-center{ align-items: center; }
 .w-100{ width: 100%; }
