@@ -1,0 +1,96 @@
+.main {
+  position: relative;
+  top: -150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 40px 250px 250px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.main_pagename {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color: white;
+  text-shadow: 5px 5px 10px #4e2c24;
+  font-size: 45px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+}
+.main_2name {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  color: #6d524c;
+  font-size: 25px;
+}
+.main_naprav {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 15px;
+  padding: 30px;
+  transition: 0.4s;
+  box-shadow: 1px 5px 10px 1px rgba(5, 16, 51, 0.411);
+  border-radius: 10px;
+}
+.main_naprav a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(15, 11, 238);
+  background-color: rgba(255, 255, 255, 0.7607843137);
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+.main_naprav p {
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+}
+
+.mn1 {
+  background-image: url("img copy/mainpic1.jpg");
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.mn2 {
+  background-image: url("img copy/mainpic2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+
+.mn3 {
+  background-image: url("img copy/mainpic3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.mn4 {
+  background-image: url("img copy/mainpic4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column-start: 2;
+  grid-row-start: 4;
+}/*# sourceMappingURL=main.css.map */
