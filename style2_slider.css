@@ -56,7 +56,6 @@
 	flex-direction: row;
 	}
 .slide4 { 
-	
 	display: flex;
 	flex-direction: row;
 	padding: 50px 50px 0px 50px;
@@ -66,7 +65,11 @@
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
-.slide6 { }
+.slide6 { 
+	display: flex;
+	flex-direction: row;
+	padding: 50px 50px 0px 50px;
+}
 .wrapper_slider .controls {
 	left: 40%;
 	position: absolute;
@@ -139,6 +142,15 @@
 	line-height: 60px;
 	text-indent: 50px;
 }
+.slide6 p{
+	text-align: right;
+	margin: 50px 50px 0px 0px;
+	color: #030e50;
+	font-weight:600;
+	font-size: 25px;
+	line-height: 60px;
+	text-indent: 50px;
+}
 .wrapper_slider label {
 	cursor: pointer;
 	display: inline-block;
@@ -154,11 +166,11 @@
 	border: 2px solid #ffffff;
 	content: " ";
 	display: block;
-	height: 12px;
+	height: 19px;
 	left: -4px;
 	position: absolute;
 	top: -4px;
-	width: 12px;
+	width: 19px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
@@ -168,10 +180,10 @@
 .wrapper_slider label {
 	cursor: pointer;
 	display: inline-block;
-	height: 8px;
+	height: 15px;
 	margin: 25px 12px 0 16px;
 	position: relative;
-	width: 8px;
+	width: 15px;
 }
 
 .wrapper_slider label:hover, 
@@ -181,7 +193,7 @@
 #slide4:checked ~ .controls label:nth-of-type(4),
 #slide5:checked ~ .controls label:nth-of-type(5),
 #slide6:checked ~ .controls label:nth-of-type(6) {
-	background: #ffffff;
+	background:  #c7deff;
 }
 .slides {
 	height: inherit;
