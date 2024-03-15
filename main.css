@@ -2,8 +2,8 @@
   position: relative;
   top: -150px;
   display: grid;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: auto;
+  padding-right: auto;
   height: -moz-fit-content;
   height: fit-content;
 }
@@ -69,30 +69,30 @@
 }
 
 .mn1 {
-  width: 696px;
-  height: 220px;
+  width: 45%;
+  height: 45%;
   background-image: url("img copy/mainpic1.jpg");
 }
 
 .mn2 {
-  width: 696px;
-  height: 220px;
+  width: 45%;
+  height: 45%;
   background-image: url("img copy/mainpic2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .mn3 {
-  width: 696px;
-  height: 220px;
+  width:45%;
+  height: 45%;
   background-image: url("img copy/mainpic3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .mn4 {
-  width: 696px;
-  height: 220px;
+  width:45%;
+  height: 45%;
   background-image: url("img copy/mainpic4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
