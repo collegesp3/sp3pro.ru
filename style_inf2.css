@@ -95,14 +95,17 @@
     text-align: right;
     padding-right: 200px;
 }
+
+.wrapper_block4{
+    margin-top: 100px;
+}
 .wrapper_block4 h2{
     font-size: 40px;
     color: #000b47;
 }
 
 .block4_div{
-    margin: 5% 0px 0px 15%;
-    width: 75%;
+    margin: 0px 0px 0px 15%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -118,15 +121,14 @@
     margin: 30px;
 }
 .block4_pract{
-   
-    width:  500px;
     background-color: #ffffff;
     padding: 20px;
     border-radius: 30px;
     border: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.5s;
 }
 .block4_pract:hover{
-    transition: 0.5s;
+    transition: 0.2s;
     -moz-box-shadow:0 0 20px #5a9cff;
     -webkit-box-shadow:0 0 20px #5a9cff;
     box-shadow:0 0 20px #5a9cff;
