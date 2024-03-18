@@ -1,6 +1,6 @@
 .main{
     height: auto;
-    padding: 100px;
+    padding: 0px 2vw  0px 2vw;
 
 }
 .main_h2_napr{
@@ -34,13 +34,13 @@
 }
 .wrapper_block1_one{
     font-family: sans-serif;
-    font-size: 45px;
+    font-size: 2vw;
     font-weight:700; 
 }
 .wrapper_block1_two{
     font-family: sans-serif;
     
-    font-size: 35px;
+    font-size: 1.5vw;
     font-weight:500; 
 }
 .wrapper_block2{
@@ -50,19 +50,19 @@
 
 .wrapper_block2_textgruppe{
     border-radius: 25px;
-    width:1000px;
+    width:80vw;
     padding: 50px;
     background: coral;
 }
 .wrapper_block2_h2{
     color: white;
-    font-size: 35px;
+    font-size: 1.5vw;
     font-weight:500; 
     
 }
 .wrapper_block2_h2_one{
     background-color: #f73c23;
-    width: 270px;
+    width: 13vw;
     padding: 10px;
     margin: 10px;
     transform: rotate(1.5deg);
@@ -70,7 +70,7 @@
 }
 .wrapper_block2_h2_two{
     background-color: #ff0f37;
-    width: 830px;
+    width: 40vw;
     padding: 10px;
     margin: 10px;
     transform: rotate(-1deg);
