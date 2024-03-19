@@ -1,3 +1,5 @@
+
+
 .main {
   position: relative;
   top: -150px;
@@ -59,25 +61,32 @@
   height: auto;
   cursor: pointer;
 }
+
 .main_naprav p {
   word-wrap:break-word;
   width: auto;
   color: white;
-  font-size: 2.5vw;
+  font-size: 35px;
   text-decoration: none;
   text-shadow: 2px 2px 5px black;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
 }
+@media (max-width: 770px) {
 
+  .main_naprav p{
+    font-size: 35px;
+    transition: 0.1s;
+  }
+}
 .mn1 {
-  width: 45%;
+  width:  45%;
   height: 45%;
   background-image: url("img copy/mainpic1.jpg");
 }
 
 .mn2 {
-  width: 45%;
+  width:  45%;
   height: 45%;
   background-image: url("img copy/mainpic2.jpg");
   background-repeat: no-repeat;
@@ -85,7 +94,7 @@
 }
 
 .mn3 {
-  width:45%;
+  width:  45%;
   height: 45%;
   background-image: url("img copy/mainpic3.jpg");
   background-repeat: no-repeat;
@@ -93,9 +102,16 @@
 }
 
 .mn4 {
-  width:45%;
+  width:  45%;
   height: 45%;
   background-image: url("img copy/mainpic4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}/*# sourceMappingURL=main.css.map */
+}
+@media (max-width: 770px) {
+
+  .mn1, .mn2, .mn3, .mn4{
+    width:  400px;
+    height: 250px;
+  }
+}
