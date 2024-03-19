@@ -21,6 +21,13 @@
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
 }
+@media (max-width: 720px) {
+
+  .main_pagename{
+    font-size: 35px;
+    transition: 0.1s;
+  }
+}
 .main_2name {
   text-align: center;
   grid-column-start: 1;
@@ -72,7 +79,7 @@
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
 }
-@media (max-width: 770px) {
+@media (max-width: 720px) {
 
   .main_naprav p{
     font-size: 35px;
@@ -108,7 +115,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (max-width: 770px) {
+@media (max-width: 720px) {
 
   .mn1, .mn2, .mn3, .mn4{
     width:  400px;
