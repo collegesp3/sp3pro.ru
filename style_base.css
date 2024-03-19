@@ -213,13 +213,27 @@ body{
     height: 8.5vw;
     border-radius: 10px;
 }
-.news_1{
+
+@media (max-width: 720px) {
+    .news{
+        padding: 10px;
+        height: 150px;
+    }
+  }
+
+  .news_1{
     color: #ff0000;
     font-size: 1.5vw;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 500;
     padding: 1vh 1vw 1vh 1vw;
 }
+@media (max-width: 720px) {
+    .news_1{
+        padding: 10px;
+        font-size: 15px;
+    }
+  }
 .news_a{
     text-decoration: none;
     padding-left: 6vw;
@@ -228,6 +242,13 @@ body{
     font-weight: 500;
    
 }
+@media (max-width: 720px) {
+    .news_a{
+        padding: 10px;
+        font-size: 15px;
+    }
+  }
+
 
 
 .footer{

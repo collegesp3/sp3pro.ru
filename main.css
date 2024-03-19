@@ -9,6 +9,13 @@
   height: -moz-fit-content;
   height: fit-content;
 }
+@media (max-width: 720px) {
+
+  .main{
+    top: 0px;
+    transition: 0.1s;
+  }
+}
 .main_pagename {
   text-align: center;
   grid-column-start: 1;
@@ -82,8 +89,9 @@
 @media (max-width: 720px) {
 
   .main_naprav p{
-    font-size: 35px;
+    font-size: 25px;
     transition: 0.1s;
+    
   }
 }
 .mn1 {
@@ -118,7 +126,8 @@
 @media (max-width: 720px) {
 
   .mn1, .mn2, .mn3, .mn4{
-    width:  400px;
-    height: 250px;
+    width:  275px;
+    height: 300px;
+    
   }
 }
