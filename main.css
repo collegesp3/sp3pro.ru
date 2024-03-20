@@ -53,7 +53,8 @@
   position: relative;
   width: auto;
   height: auto;
-  margin-top: 70px;
+  margin-top: 45px;
+  margin-bottom: 45px;
   padding: 30px;
   transition: 0.4s;
   box-shadow: 1px 5px 10px 1px rgba(5, 16, 51, 0.411);

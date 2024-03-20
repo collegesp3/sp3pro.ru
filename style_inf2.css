@@ -37,12 +37,12 @@
 }
 .wrapper_block1_one{
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     font-weight:700; 
 }
 .wrapper_block1_two{
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight:500; 
 }
 .wrapper_block2{
@@ -53,13 +53,13 @@
 
 .wrapper_block2_textgruppe{
     border-radius: 25px;
-    width:80vw;
+    width:1000px;
     padding: 50px;
     background: coral;
 }
 .wrapper_block2_h2{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-weight:500; 
     
 }
@@ -102,6 +102,12 @@
 .wrapper_block4{
     margin-top: 100px;
 }
+                    @media(max-width:720px){
+                        .wrapper_block4{
+                            display: none;
+                        }
+                    }
+                    
 .wrapper_block4 h2{
     word-wrap:break-word;
     font-size: 40px;
