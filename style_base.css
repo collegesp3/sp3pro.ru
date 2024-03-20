@@ -71,6 +71,16 @@ body{
     height: 80px;
     border-radius: 10px;
 }
+@media (max-width: 720px) {
+
+    .news{
+        background: rgba(255, 255, 255, 0.829);
+        margin-top: 170px;
+        padding: 1vh 1vw 1vh 1vw;
+        height: auto;
+        border-radius: 10px;
+    }
+  }
 .news_1{
     color: #ff0000;
     font-size: 70%;
