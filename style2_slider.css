@@ -97,7 +97,7 @@
 	.slide3 {
 		padding: 5px 5px 15px 5px;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 	}
 }
 .slide4 { 
@@ -225,7 +225,7 @@
 		color: #4e0c03;
 		font-size: 20px;
 		font-weight:550;
-		line-height: 27px;
+		line-height: 20px;
 	}
 } 
 .slide3 img{
@@ -235,7 +235,7 @@
 @media (max-width: 720px) {
 	.slide3 img{
 		width: 50vw;
-		height: 40vw;
+		height: 50vw;
 	}
 	.slide4 img{
 		width: 50vw;
