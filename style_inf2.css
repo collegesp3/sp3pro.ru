@@ -46,7 +46,7 @@
     font-weight:500; 
 }
 .wrapper_block2{
-    word-wrap:break-word;
+    
     display: flex;
     flex-direction: row;
 }
@@ -61,15 +61,15 @@
     color: white;
     font-size: 25px;
     font-weight:500; 
-    
 }
 .wrapper_block2_h2_one{
     background-color: #f73c23;
-    width: 13vw;
+    width: 200px;
     padding: 10px;
     margin: 10px;
     transform: rotate(1.5deg);
     margin-left: -15px;
+    word-wrap: normal;
 }
 .wrapper_block2_h2_two{
     background-color: #ff0f37;
@@ -98,24 +98,34 @@
     text-align: right;
     padding-right: 200px;
 }
-
+@media (max-width: 720px) {
+	.wrapper_block3 h2{
+        padding: 20px;
+        color: #ffffff;
+        font-size: 35px;
+        text-align: right;
+        padding-right: 50px;
+    }
+} 
 .wrapper_block4{
-    margin-top: 100px;
+    margin: 100px 0px 0px 0px;
 }
-                    @media(max-width:720px){
-                        .wrapper_block4{
-                            display: none;
-                        }
-                    }
-                    
+
 .wrapper_block4 h2{
     word-wrap:break-word;
     font-size: 40px;
     color: #000b47;
 }
-
+@media (max-width: 720px) {
+	.wrapper_block4 h2{
+        margin: 0px 0px 50px 0px;
+        word-wrap:break-word;
+        font-size: 25px;
+        color: #000b47;
+    }
+} 
 .block4_div{
-    margin: 0px 0px 0px 15%;
+    margin: 0px 0px 0px 15px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -124,11 +134,24 @@
     width: 500px ;
     height:350px ;
 }
-
+@media (max-width: 720px) {
+	.block4_div img{
+        border-radius: 30px;
+        width:  200px;
+        height: 150px;
+    }
+}
 .block4_div div{
     height: auto;
     width:  auto;
     margin: 30px;
+}
+@media (max-width: 720px) {
+	.block4_div div{
+        height: auto;
+        width:  auto;
+        margin: 20px;
+    }
 }
 .block4_pract{
     background-color: #ffffff;
@@ -136,6 +159,15 @@
     border-radius: 30px;
     border: 2px solid rgba(0, 0, 0, 0);
     transition: 0.5s;
+}
+@media (max-width: 720px) {
+	.block4_pract{
+        background-color: #ffffff;
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid rgba(0, 0, 0, 0);
+        transition: 0.5s;
+    }
 }
 .block4_pract:hover{
     transition: 0.2s;
@@ -152,4 +184,16 @@
 	margin-top: 50px;
     height: 100px;
     width:  500px;
+}
+@media (max-width: 720px) {
+	.block4_pract p{
+        font-size: 20px;
+        color: #f73c23;
+        font-weight:550;
+        line-height: 30px;
+        text-align: center;
+        margin: 5px 0px -80px 0px;
+        height: 200px;
+        width:  200px;
+    }
 }
