@@ -50,6 +50,30 @@
     border: none;
 }
 
+.tutorials{
+    background: rgba(255, 255, 255, 0.829);
+    margin-top: 170px;
+    padding: 1vh 1vw 1vh 1vw;
+    height: 40px;
+    border-radius: 10px;
+}
+.tutorials a{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 14px;
+    color: rgb(209, 61, 35);
+}
+@media (max-width: 900px) {
+    .tutorials{
+        margin-top: 120px;
+    }
+    }
+@media (max-width: 720px) {
+    .tutorials{
+        margin-top: 120px;
+    }
+    }
+
+
 
 /* 
                      min-width: 900px 
@@ -190,12 +214,18 @@
         position: relative;
         z-index: -2;
     }
-
     .dropbtn{
         font-size: 16px;
     }
-    
 }
 
+/* 
+                     max-width: 720px 
+*/
+@media screen and (max-width: 720px){
+    .header{
+        height: 200px;
+    }
+}
 
 

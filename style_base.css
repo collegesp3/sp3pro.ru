@@ -71,14 +71,19 @@ body{
     height: 80px;
     border-radius: 10px;
 }
-@media (max-width: 720px) {
-
+.news p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 14px;
+    color: rgb(209, 61, 35);
+}
+@media (max-width: 900px) {
     .news{
-        background: rgba(255, 255, 255, 0.829);
-        margin-top: 170px;
-        padding: 1vh 1vw 1vh 1vw;
-        height: auto;
-        border-radius: 10px;
+        margin-top: 120px;
+    }
+  }
+@media (max-width: 720px) {
+    .news{
+        margin-top: 120px;
     }
   }
 .news_1{
@@ -96,7 +101,6 @@ body{
     font-weight: 500;
    
 }
-
 
 .footer{
     width: 100%;

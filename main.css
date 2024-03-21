@@ -9,13 +9,7 @@
   height: -moz-fit-content;
   height: fit-content;
 }
-@media (max-width: 720px) {
 
-  .main{
-    top: 0px;
-    transition: 0.1s;
-  }
-}
 .main_pagename {
   text-align: center;
   grid-column-start: 1;
@@ -28,13 +22,8 @@
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
 }
-@media (max-width: 720px) {
 
-  .main_pagename{
-    font-size: 35px;
-    transition: 0.1s;
-  }
-}
+
 .main_2name {
   text-align: center;
   grid-column-start: 1;
@@ -59,6 +48,10 @@
   transition: 0.4s;
   box-shadow: 1px 5px 10px 1px rgba(5, 16, 51, 0.411);
   border-radius: 10px;
+  width:  45%;
+  height: 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main_naprav a {
   position: absolute;
@@ -69,7 +62,7 @@
   font-size: 20px;
   padding: 10px;
   text-decoration: none;
-  color: rgb(15, 11, 238);
+  color: rgb(35, 79, 167);
   background-color: rgba(255, 255, 255, 0.7607843137);
   border-radius: 10px;
   width: auto;
@@ -87,50 +80,53 @@
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
 }
-@media (max-width: 720px) {
 
-  .main_naprav p{
-    font-size: 25px;
-    transition: 0.1s;
-    
-  }
-}
 .mn1 {
-  width:  45%;
-  height: 45%;
   background-image: url("img copy/mainpic1.jpg");
 }
-
 .mn2 {
-  width:  45%;
-  height: 45%;
   background-image: url("img copy/mainpic2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-
 .mn3 {
-  width:  45%;
-  height: 45%;
   background-image: url("img copy/mainpic3.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-
 .mn4 {
-  width:  45%;
-  height: 45%;
   background-image: url("img copy/mainpic4.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 @media (max-width: 720px) {
-
+  .main{
+    top: 0px;
+    transition: 0.1s;
+    display: block;
+  }
+  .main_pagename{
+    font-size: 35px;
+    transition: 0.1s;
+  }
+  .main_naprav{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .main_naprav p{
+    font-size: 20px;
+    transition: 0.1s;
+  }
+  .main_allnaprav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .main_naprav a {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 7px;
+  }
   .mn1, .mn2, .mn3, .mn4{
     padding: auto;
-    width:  275px;
-    height: 275px;
-    
+    width:  90%;
+    height: 100px;    
   }
 }
