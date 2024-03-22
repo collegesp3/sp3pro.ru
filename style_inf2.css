@@ -65,7 +65,7 @@
 .wrapper_block2_textgruppe{
     border-radius: 25px;
     width:1000px;
-    padding: 50px;
+    padding: 25px;
     background: coral;
 }
 .wrapper_block2_h2{
@@ -137,9 +137,15 @@
     }
 } 
 .block4_div{
-    margin: 0px 0px 0px 15px;
+    margin: auto auto auto 15px;
     display: flex;
     flex-wrap: wrap;
+}
+    @media (max-width: 2000px) {
+        .block4_div{
+            display: flex;
+            justify-content: space-around;
+    }
 }
 .block4_div img{
     border-radius: 30px;
