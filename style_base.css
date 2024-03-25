@@ -114,14 +114,10 @@ body{
    
 }
 
+
 .footer{
     width: 100%;
     height: 100px;
     background-color: #FC804C;
 }
 
-.footer_pod{
-    text-align: right;
-    font-size: 15px;
-    color: #864535;
-}
