@@ -92,6 +92,12 @@ body{
         margin-top: 120px;
     }
   }
+@media (max-width:530px){
+     .news{
+        max-width: 350px;
+        height: 80px;
+     }
+}
 .news_1{
     color: #ff0000;
     font-size: 70%;
