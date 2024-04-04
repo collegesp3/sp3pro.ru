@@ -1,0 +1,35 @@
+html, body {
+    font-family: sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+.content{
+    display: flex;
+}
+.content__item{
+    width: 45%;
+    margin: 10px;
+}
+.main {
+    color: green;
+    font-weight: bold;
+}
+.main p{
+    background-color: rgb(255, 236, 214);
+}
+a {
+    color: rgb(5, 5, 77);
+    font-size: 20px;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    color: rgb(138, 35, 35);
+}
+.main h1{
+    color: rgb(121, 75, 75);
+    background-color: rgb(214, 228, 216);
+}
+.small_text{
+    font-size: small;
+    color: brown;
+}

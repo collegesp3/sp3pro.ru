@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP запросы</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Подключение к базе данных и чтение ее содержимого</h1><br>
+
+        <p>Внимание: файл "index.php" нужно скопировать в папку "public_html" на хостинге и не забывать при каждом изменении его переписывать</p>
+        <p class="small_text">В дальнейшем мы научимся создавать виртуальную копию сервера с базой данных на своем компьютере для отладочных работ</p>
+
+        <p>1. Создать файл "index.php" и поставить открывающий и закрывающий теги для вставки кода на серверном языке PHP для работы с базой данный</p>
+        <img style="width: 500px;" src="img\mysql_php_1.jpg" alt="">
+        <p>2. Создать специальный объект PDO для подключения к нашей базе, указав ее имя и пароль (их указывали при создании базы)</p>
+        <img style="width: 600px;" src="img\mysql_php_2.jpg" alt="">
+        <p>3. Сделать запрос на языке SQL для получения всего содержмого таблицы "product"</p>
+        <p class="small_text">"SELECT * from product" означает выдать построчно все данные из таблицы</p>
+        <img style="width: 800px;" src="img\mysql_php_3.jpg" alt="">
+        <p>4. Результатом этого запроса будет таблица. Она записывается в память в переменную "$query" и пока нигде не отображается</p>
+        <img style="width: 400px;" src="img\mysql_php_4.jpg" alt="">
+        <p>5. Извлекаем с помощью команды foreach данные из $query строку за строкой и выводим их в содержимое нашей страницы </p>
+        <img style="width: 800px;" src="img\mysql_php_5.jpg" alt="">
+        <p>6. Получаем в браузере все данные в одну строку слитно, без форматирования.</p>
+        <img style="width: 750px;" src="img\mysql_php_6.jpg" alt="">
+        <p>7. На PHP мы можем добавлять любой текст и символы HTML-разметки</p>
+        <img style="width: 800px;" src="img\mysql_php_7.jpg" alt="">
+        <p>8. Результат</p>
+        <img style="width: 250px;" src="img\mysql_php_8.jpg" alt="">
+
+
+    </div>
+</body>
+</html>
