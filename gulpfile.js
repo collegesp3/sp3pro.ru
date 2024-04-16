@@ -25,7 +25,7 @@ function includeHTML(){
     return src([
         'app/include/*.html',
         '!header.html',
-        '!blockNews2.html',
+        '!blockNews.html',
         '!footer.html'
     ])
     .pipe(fileInclude({
