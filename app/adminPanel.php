@@ -40,6 +40,7 @@ if (!isset($_SESSION['isAdmin'])){
             <textarea class="m-15-b" name="art" id="" cols="30" rows="5" placeholder="Введите новость..." required></textarea>
             <input type="submit" name="submitButton" value="Добавить новость">
         </form>
+        <a href="./php/logout.php">Выйти</a>
     </main>
 </body>
 </html>
