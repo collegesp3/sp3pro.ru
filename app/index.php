@@ -19,7 +19,7 @@
         <div class="header_menu" id='header_menu'>
             <div class="header_menu-logo">
                 <img src="logo.png">
-                <p>ЩЕЛКОВСКИЙ КОЛЛЕДЖ <br> СП3</p>
+                <p>ЩЕЛКОВСКИЙ КОЛЛЕДЖ СП3</p>
             </div>
             <div class="header_menu_nav">
                 <a href="index.html" class="header_menu_nav_item but1">Главная</a>
@@ -104,7 +104,7 @@
                     <?php
                     require_once 'db/connection.php';
 
-                    $news = $conn->prepare("SELECT category, content FROM news ORDER BY id DESC LIMIT 10");
+                    $news = $conn->prepare("SELECT img, content FROM news ORDER BY id DESC LIMIT 10");
                     $news->execute();
 
                     $i = 1;
@@ -114,15 +114,7 @@
                         <div class="slidIN">
 
                             <div class="slidIN_img">
-                                <?php if ($art['category']==0): ?>
-                                <img class="slidIN_img" src="./img/акция.png" alt="picNEWS">
-                                <?php endif; ?>
-                                <?php if ($art['category']==1): ?>
-                                <img class="slidIN_img" src="./img/конкурс.png" alt="picNEWS">
-                                <?php endif; ?>
-                                <?php if ($art['category']==2): ?>
-                                <img class="slidIN_img" src="./img/практика.png" alt="picNEWS">
-                                <?php endif; ?>
+                                <img class="slidIN_img" src="<?=$art['img']?>" alt="picNEWS">
                             </div>
                             <div class="slidIN_textNEWS">
                                 <?=$art['content']?>
