@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Хост: localhost
--- Время создания: Апр 16 2024 г., 16:45
--- Версия сервера: 8.0.36
--- Версия PHP: 8.3.4
+-- Хост: 127.0.0.1:3306
+-- Время создания: Апр 17 2024 г., 13:01
+-- Версия сервера: 8.0.19
+-- Версия PHP: 7.1.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,27 +24,44 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Структура таблицы `admins`
+--
+
+CREATE TABLE `admins` (
+  `id` int NOT NULL,
+  `login` varchar(30) NOT NULL,
+  `password` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Дамп данных таблицы `admins`
+--
+
+INSERT INTO `admins` (`id`, `login`, `password`) VALUES
+(1, 'admin', 'Ert135ert');
+
+-- --------------------------------------------------------
+
+--
 -- Структура таблицы `news`
 --
 
 CREATE TABLE `news` (
   `id` int NOT NULL,
-  `category` int NOT NULL,
+  `img` text NOT NULL,
   `content` text NOT NULL,
   `datetime` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
--- Дамп данных таблицы `news`
---
-
-INSERT INTO `news` (`id`, `category`, `content`, `datetime`) VALUES
-(1, 0, 'Первая новость на странице.\r\nБета-тест.', '2024-04-16 16:33:05'),
-(2, 1, 'Проводим конкурс!\r\nСобери слово \"БАН\" из трёх букв, получишь кол в журнал!', '2024-04-16 16:40:41');
-
---
 -- Индексы сохранённых таблиц
 --
+
+--
+-- Индексы таблицы `admins`
+--
+ALTER TABLE `admins`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Индексы таблицы `news`
@@ -57,10 +74,16 @@ ALTER TABLE `news`
 --
 
 --
+-- AUTO_INCREMENT для таблицы `admins`
+--
+ALTER TABLE `admins`
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT для таблицы `news`
 --
 ALTER TABLE `news`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

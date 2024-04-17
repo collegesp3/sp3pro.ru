@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fl{ display: flex; }
+.col{ flex-direction: column; }
+.a-center{ align-items: center; }
+.m-5-b{ margin-bottom: 5px; }
+
+.red{ color: red; }
+
+main{ padding: 15px; }
+
+form input{
+    font-size: 26px;
+}
