@@ -106,6 +106,7 @@
 
                     $news = $conn->prepare("SELECT img, content FROM news ORDER BY id DESC LIMIT 10");
                     $news->execute();
+                    $news = $news->fetchAll();
 
                     $i = 1;
 
@@ -122,10 +123,7 @@
                         </div>
                     </div>
                     <?php $i ++;
-                    endforeach;
-                    for (; $i <= 10; $i ++): ?>
-                    <div class="wrappNews_inpNews_sliderNews_slidesNews News<?=$i?>"> </div>
-                    <? endfor; ?>
+                    endforeach; ?>
                     <!-- <div class="wrappNews_inpNews_sliderNews_slidesNews News2">
                         <div class="slidIN">
                             <div class="slidIN_img">
@@ -183,16 +181,13 @@
                     <div class="wrappNews_inpNews_sliderNews_slidesNews News10"></div> -->
                 </div>
                 <div class="wrappNews_controlsNews">
-                    <label class="wrappNews_controlsNews_labNews" for="News1"></label>
-                    <label class="wrappNews_controlsNews_labNews" for="News2"></label>
-                    <label class="wrappNews_controlsNews_labNews" for="News3"></label>
-                    <label class="wrappNews_controlsNews_labNews" for="News4"></label>
-                    <label class="wrappNews_controlsNews_labNews" for="News5"></label>
-                    <label class="wrappNews_controlsNews_labNews" for="News6"></label>
-                    <label class="wrappNews_controlsNews_labNews" for="News7"></label>
-                    <label class="wrappNews_controlsNews_labNews" for="News8"></label>
-                    <label class="wrappNews_controlsNews_labNews" for="News9"></label>
-                    <label class="wrappNews_controlsNews_labNews" for="News10"></label>
+                    <?php $i = 1; foreach ($news as $art): ?>
+                    <label class="wrappNews_controlsNews_labNews" for="News<?=$i?>"><?=$i?></label>
+                    <?php $i++; endforeach; 
+                    if ($i > 10): ?>
+                    <input type="hidden" id="wrappNews_position" value="10">
+                    <button onclick="openOlderNews()">=></button>
+                    <?php endif; ?>
                 </div>
 
             </div>
